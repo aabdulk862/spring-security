@@ -18,4 +18,3 @@ INSERT INTO orders (customer_id, order_info)
 values ((SELECT customer_id FROM customers where name = 'Acme'), '3000 Widgets');
 INSERT INTO orders (customer_id, order_info)
 values ((SELECT customer_id FROM customers where name = 'Callahan Auto'), '200 Widgets');
-
