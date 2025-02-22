@@ -17,8 +17,5 @@ This project demonstrates how to secure a **Spring Boot** application using **Sp
 - LDAP & Active Directory  
 - WebFlux  
 
-## Getting Started
-### Prerequisites
-- Java 17+  
-- Maven or Gradle  
+
 
