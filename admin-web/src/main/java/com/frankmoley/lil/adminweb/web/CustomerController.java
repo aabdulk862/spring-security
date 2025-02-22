@@ -51,8 +51,8 @@ public class CustomerController {
         return "customers";
     }
 
-    @GetMapping(path="/{id}")
-    public String getUser(@PathVariable("id")long customerId, Principal principal, Model model){
+    @GetMapping(path = "/{id}")
+    public String getUser(@PathVariable("id") long customerId, Principal principal, Model model) {
         Optional<Customer> customer = this.customerRepository.findById(customerId);
         if (customer.isEmpty()) {
             throw new ResponseStatusException(
